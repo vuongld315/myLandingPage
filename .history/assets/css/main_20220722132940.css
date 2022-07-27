@@ -1,0 +1,157 @@
+*   {
+    box-sizing: inherit;
+}
+
+body    {
+    padding-bottom:100px ;
+}
+
+html    {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.gird   {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird__full-width   {
+    width: 100%;
+}
+
+.gird__row  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body    {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#nav ul {
+    padding: 0;    
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > ul > li > a   {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 24px; 
+    line-height: 46px;    
+}
+
+#nav li a   {    
+    text-decoration: none;
+    font-size: 1.6rem;   
+    display: inline-block;
+         
+}
+
+#nav .subnav li:hover,
+#nav > ul > li:hover > a {
+    color:#000;
+    background-color: #ccc;
+    
+}
+
+#nav > ul > li:hover .subnav    {
+    display: block;
+}
+
+#nav .subnav    {
+    display: none;
+    position: absolute;    
+    background-color: #fff;
+    width: 160px;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 , .3);
+}
+
+#nav .subnav li {
+    width: 100%;
+    list-style: none;
+    padding: 12px;
+    
+}
+
+#nav .subnav a  {
+    color: #000;  
+    font-size: 1.4rem;
+}
+
+.nav-arrow-down {
+    font-size: 1.2rem;
+}
+
+#header .search-btn {
+    font-size: 20px;
+    color: #fff;
+    padding: 13px 24px;
+    height: 100%;
+}
+
+#header .search-btn:hover   {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#slider {    
+    display: flex;
+    justify-content: center;  
+    margin-top: 46px;
+    padding-top: 50%;
+    background: 
+    url('/assets/img/slider1.jpg') left top no-repeat,
+    url('/assets/img/slider2.jpg') right bottom  no-repeat;
+    url'/assets/img/slider3.jpg') center center no-repeat;
+    background-size: 250px,250px,auto;    
+    position: relative;
+}
+
+.text-content  {
+    position: absolute;
+    color: #fff;
+    bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-heading   {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text-desciption    {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+#content {
+
+}
+
+#footer {
+
+}

@@ -1,0 +1,62 @@
+*   {
+    box-sizing: inherit;
+}
+
+body    {
+    padding-bottom:100px ;
+}
+
+html    {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.gird   {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gird__full-width   {
+    width: 100%;
+}
+
+.gird__row  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#nav    {
+
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav .subnav    {
+    dis
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}

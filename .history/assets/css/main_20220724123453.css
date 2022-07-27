@@ -1,0 +1,213 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#nav ul {
+    padding: 0;    
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > ul > li > a   {
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 24px; 
+    line-height: 46px;    
+}
+
+#nav li a   {    
+    text-decoration: none;
+    font-size: 1.6rem;   
+    display: inline-block;
+         
+}
+
+#nav .subnav li:hover,
+#nav > ul > li:hover > a {
+    color:#000;
+    background-color: #ccc;
+    
+}
+
+#nav > ul > li:hover .subnav    {
+    display: block;
+}
+
+#nav .subnav    {
+    display: none;
+    position: absolute;    
+    background-color: #fff;
+    width: 160px;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 , .3);
+}
+
+#nav .subnav li {
+    width: 100%;
+    list-style: none;
+    padding: 12px;
+    
+}
+
+#nav .subnav a  {
+    color: #000;  
+    font-size: 1.4rem;
+}
+
+.nav-arrow-down {
+    font-size: 1.2rem;
+}
+
+#header .search-btn {
+    font-size: 20px;
+    color: #fff;
+    padding: 13px 24px;
+    height: 100%;
+}
+
+#header .search-btn:hover   {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#slider {      
+    margin-top: 46px;   
+    position: relative;
+}
+
+.slider-faded img   {
+    width: 100%; 
+}
+
+.text-content  {
+    position: absolute;
+    color: #fff;
+    bottom: 48px;  
+    width: 100%;
+    text-align: center;
+}
+
+.text-heading   {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text-desciption    {
+    font-size: 15px;
+    margin-top: 25px;
+}
+.text-white {
+    color: #fff !important;
+}
+
+/* about section */
+
+#content .content-section   {
+    width: 800px;
+    margin: 0 auto;    
+    padding: 64px 0;  
+}
+
+#content .content-section .section-heading  {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#content .content-section .section-sub-heading  {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .content-section .about-text   {
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+
+#content .content-section .member-list  {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content .content-section .member-name  {
+    font-size: 15px;
+    text-align: center;
+}
+
+#content .content-section .member-img   {
+    text-align: center;
+}
+
+#content .content-section .member-avata {
+    width: 60%;
+    border-radius: 4px;
+}
+
+
+/* tour section */
+
+#content .tour-section  {
+    background-color: #000;
+}
+
+#content .tour-section .ticket-list {
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 0;
+}
+
+#content .tour-section .ticket-list > li    {
+    list-style: none;
+    font-size: 15px;
+    padding: 11px 16px;
+    margin-left: 0;
+    border-bottom: 1px solid #ccc;
+    color: #757575;
+}
+
+#content .tour-section .ticket-list .sold-out   {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+#content .tour-section .ticket-list .quantity   {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    mar
+}
+
+#footer {
+
+}
